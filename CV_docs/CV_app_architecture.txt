@@ -1,0 +1,21 @@
+- Frontend (Flask templates + CSS)
+
+
+
+- Endpoints (Flask):
+ 
+/candidate (POST) ---> Params: [position_label], [skills], [CV_directory]  >> [CV_prompt]
+
+/metadata  (POST) ---> Params: [CV_directory] >> [CV_metadata_extractor]
+
+
+- Application(Python):
+
+Load PDF ---> PDF parser (python) ---> 	for each "paragraph" in list...     ---> Request to Watson NLU API (python) 
+ANSWER  <--- Find global & partial categories <--- Parse responses (python) <--- Response from Watson NLU API (json)
+
+
+>>			       [CV_metadata_extractor] ---> [Watson]
+					||
+>>	[CV_prompt] 	--->   [CV_best_candidate]   
+

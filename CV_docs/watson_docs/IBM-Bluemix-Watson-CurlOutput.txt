@@ -1,0 +1,19 @@
+$ curl -X POST -H "Content-Type: application/json" -u "3a9775b1-0215-47a2-8f32-b96d2bd8428b":"oSgrAFNoDVZj" -d @parameters.json "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27" -v -k
+
+{
+  "categories": [
+    {
+      "score": 0.576307,
+      "label": "/technology and computing/operating systems/linux"
+    },
+    {
+      "score": 0.55512,
+      "label": "/science/social science/linguistics"
+    },
+    {
+      "score": 0.437761,
+      "label": "/science/computer science/artificial intelligence"
+    }
+  ],
+  "language": "en"
+}                                                                                                                             

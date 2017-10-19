@@ -1,0 +1,204 @@
+{
+ "keywords": [
+  {
+   "text": "natural language",
+   "relevance": 0.993296
+  },
+  {
+   "text": "analisi funzionale",
+   "relevance": 0.917219
+  },
+  {
+   "text": "Natural Language Processing",
+   "relevance": 0.900099
+  },
+  {
+   "text": "NLP Analyst",
+   "relevance": 0.730329
+  },
+  {
+   "text": "fuzzy matching",
+   "relevance": 0.670251
+  },
+  {
+   "text": "Antipirateria Digitale",
+   "relevance": 0.657003
+  },
+  {
+   "text": "sistemista linux",
+   "relevance": 0.647321
+  },
+  {
+   "text": "settore automotive",
+   "relevance": 0.634606
+  },
+  {
+   "text": "figure retoriche",
+   "relevance": 0.613771
+  },
+  {
+   "text": "discorsi politici",
+   "relevance": 0.591433
+  },
+  {
+   "text": "Knowledge Graph Extraction",
+   "relevance": 0.523924
+  },
+  {
+   "text": "Question Answering systems",
+   "relevance": 0.510262
+  },
+  {
+   "text": "Consulente AM Middleware",
+   "relevance": 0.496306
+  },
+  {
+   "text": "pirateria digitale nell'editoria",
+   "relevance": 0.493383
+  },
+  {
+   "text": "and graph databases",
+   "relevance": 0.49315
+  },
+  {
+   "text": "Fondazione Bruno Kessler",
+   "relevance": 0.477219
+  },
+  {
+   "text": "Sistemista Linux Junior",
+   "relevance": 0.477161
+  },
+  {
+   "text": "Flask web apps",
+   "relevance": 0.47001
+  },
+  {
+   "text": "server linux aziendale",
+   "relevance": 0.467022
+  },
+  {
+   "text": "sistemi informativi aziendali",
+   "relevance": 0.465567
+  },
+  {
+   "text": "linguista computazionale",
+   "relevance": 0.433828
+  },
+  {
+   "text": "NLP Tools",
+   "relevance": 0.426218
+  },
+  {
+   "text": "modelli teorici",
+   "relevance": 0.425099
+  },
+  {
+   "text": "Semantic analysis",
+   "relevance": 0.42246
+  },
+  {
+   "text": "linguaggio naturale",
+   "relevance": 0.422014
+  },
+  {
+   "text": "Regular Expressions",
+   "relevance": 0.421112
+  },
+  {
+   "text": "Accenture Digital",
+   "relevance": 0.420353
+  },
+  {
+   "text": "tool sviluppato",
+   "relevance": 0.419837
+  },
+  {
+   "text": "Sentiment analysis",
+   "relevance": 0.419785
+  },
+  {
+   "text": "copie illegali",
+   "relevance": 0.41899
+  },
+  {
+   "text": "multinazionale italiana",
+   "relevance": 0.418861
+  },
+  {
+   "text": "NLP libraries",
+   "relevance": 0.417793
+  },
+  {
+   "text": "Join Ventures",
+   "relevance": 0.416589
+  },
+  {
+   "text": "Data Transfer",
+   "relevance": 0.416358
+  },
+  {
+   "text": "integrazione automatica",
+   "relevance": 0.414869
+  },
+  {
+   "text": "Text processing",
+   "relevance": 0.413801
+  },
+  {
+   "text": "consulente it",
+   "relevance": 0.41355
+  },
+  {
+   "text": "ricerche precedenti",
+   "relevance": 0.411718
+  },
+  {
+   "text": "DML basilari",
+   "relevance": 0.41134
+  },
+  {
+   "text": "Economia Mista",
+   "relevance": 0.411032
+  },
+  {
+   "text": "seguenti funzioni",
+   "relevance": 0.410845
+  },
+  {
+   "text": "Laurea Magistrale",
+   "relevance": 0.410723
+  },
+  {
+   "text": "Reperimento automatico",
+   "relevance": 0.409742
+  },
+  {
+   "text": "Project Planning",
+   "relevance": 0.408609
+  },
+  {
+   "text": "Fondamenti teorici",
+   "relevance": 0.407969
+  },
+  {
+   "text": "rete torrent",
+   "relevance": 0.406944
+  },
+  {
+   "text": "Case Editrici",
+   "relevance": 0.406331
+  },
+  {
+   "text": "Data cleansing",
+   "relevance": 0.405756
+  },
+  {
+   "text": "Perl DBI",
+   "relevance": 0.405501
+  },
+  {
+   "text": "Download automatico",
+   "relevance": 0.404412
+  }
+ ]
+}

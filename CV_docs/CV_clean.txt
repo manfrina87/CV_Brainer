@@ -1,0 +1,82 @@
+﻿NLP Analyst
+
+ Sono una linguista computazionale. Mi occupo di Natural Language Processing e conosco i principali
+tools e modelli teorici per l'elaborazione del linguaggio naturale.
+Inoltre, negli anni ho maturato competenze da sistemista Linux.
+Al momento sono consulente IT per Accenture Digital.
+
+NLP Analyst 
+
+Analisi funzionale e di prototipizzazione su progetti di Natural Language Processing:
+● Semantic analysis e Knowledge Graph Extraction a partire da testi non strutturati;
+● Ontologie, database a grafo (Neo4j) e query sui grafi (SPARQL, Cypher);
+● Question Answering systems integrati con i chatbot.
+
+Consulente AM Middleware
+
+● Gestione dei flussi di un sistema di Data Transfer
+● Progettazione e sviluppo di un tool di integrazione automatica.
+● Manutenzione del tool sviluppato, e di altri tool collegati.
+
+Antipirateria Digitale 
+
+Realizzazione di una piattaforma integrata per la prevenzione della pirateria digitale nell'editoria,
+con le seguenti funzioni:
+● Ricerca automatica nel web di copie illegali di ebook protetti da copyright.
+● De-duplica dei risultati della ricerca e confronto con ricerche precedenti, mediante tecniche di
+fuzzy matching.
+● Download automatico (anche da rete torrent)
+
+Sistemista Linux Junior
+
+● Tre anni presso una multinazionale italiana del settore automotive, sede di Cuba:
+● Analisi funzionale dei processi di fatturazione
+● Design ed implementazione del software aziendale di fatturazione
+● Gestione del server Linux aziendale
+● Manutenzione fisica e logica della rete
+● Gestione condivisioni e sicurezza
+● Assistenza remota sui sistemi informativi aziendali
+
+NLP Tools
+R
+Grafici, elementi di statistica, Sentiment analysis
+Regular Expressions
+Data extraction, Data cleansing
+Bash
+Shell scripting, system administration, web crawling
+Python
+Text processing, Perl DBI
+SQL
+Fondamenti teorici, DDL e DML basilari, interrogazioni
+basilari, funzioni di fuzzy matching
+Semantic Web
+SPARQL, Neo4j and graph databases, ontologies.
+Settore Automotive
+Distribuzione, Logistica
+Commercio in una Economia Mista
+Fatturazione, Dogana, Join Ventures, Import/Export
+Editoria 
+Antipirateria Digitale, Diritti d’Autore, Case Editrici
+Project Planning
+Progettazione di sistemi di natural language
+understanding.
+NLP libraries, Flask web apps, virtual enviroments
+Perl
+Analisi Funzionale
+Progetti individuali, esclusa la parte economica.
+
+Laurea Magistrale in Linguistica - indirizzo Computazionale 
+Università degli Studi di Padova e Fondazione Bruno Kessler di Trento
+
+Tesi: "Reperimento automatico di figure retoriche in un corpus di discorsi politici"
+● Annotazione linguistica di un corpus di discorsi politici.
+● Inserimento del corpus annotato in un database relazionale.
+● Reperimento delle figure retoriche mediante delle query.
+
+Scuola Galileiana di Studi Superiori 
+Scuola di Eccellenza dell’Università degli Studi di Padova
+
+Lingue Straniere
+● Inglese (C1),
+● Spagnolo (C2)
+

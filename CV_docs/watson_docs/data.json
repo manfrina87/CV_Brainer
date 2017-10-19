@@ -1,0 +1,48 @@
+{   
+   "text": "Sono un esperta di Natural Language Processing e ho studiato i modelli formali su cui si fonda l elaborazione automatica del linguaggio naturale. Ho maturato un esperienza triennale all estero come sistemista Linux e sono specializzata in information extraction e data cleansing.",   
+      
+   "features": {   
+     "concepts": {   
+       "limit": 8   
+     },   
+     "emotion": {   
+       "document": true,   
+       "targets": [   
+         "string"   
+       ]   
+     },   
+     "entities": {   
+       "limit": 50,   
+       "model": "alchemy",   
+       "sentiment": false,   
+       "emotion": false   
+     },   
+     "keywords": {   
+       "limit": 50,   
+       "sentiment": false,   
+       "emotion": false   
+     },   
+       
+     "relations": {   
+       "model": "string"   
+     },   
+     "semantic_roles": {   
+       "limit": 50,   
+       "keywords": false,   
+       "entities": false   
+     },   
+     "sentiment": {   
+       "document": true,   
+       "targets": [   
+         "string"   
+       ]   
+     },   
+     "categories": {}   
+   },   
+   "clean": true,   
+   "xpath": "string",   
+   "fallback_to_raw": true,   
+   "return_analyzed_text": false,   
+   "language": "it",   
+   "limit_text_characters": 500   
+ }

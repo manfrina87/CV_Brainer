@@ -1,0 +1,14 @@
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --data @data.json 'https://watson-api-explorer.mybluemix.net/natural-language-understanding/api/v1/analyze?version=2017-02-27' -k
+
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --data @parameters.json 'https://watson-api-explorer.mybluemix.net/natural-language-understanding/api/v1/analyze?version=2017-02-27' -k
+
+
+
+## DOCUMENTATION ##
+
+#https://watson-api-explorer.mybluemix.net/apis/natural-language-understanding-v1?cm_mc_uid=60251692136615053809721&cm_mc_sid_50200000=1505917904&cm_mc_sid_52640000=1505917904
+
+#https://natural-language-understanding-demo.mybluemix.net/?cm_mc_uid=60251692136615053809721&cm_mc_sid_50200000=1505917904&cm_mc_sid_52640000=1505917904
+
+#https://www.ibm.com/watson/services/natural-language-understanding/

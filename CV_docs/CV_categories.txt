@@ -1,0 +1,16 @@
+{
+ "categories": [
+  {
+   "score": 0.571315,
+   "label": "/home and garden/home improvement and repair/power tools"
+  },
+  {
+   "score": 0.554615,
+   "label": "/science/social science/linguistics"
+  },
+  {
+   "score": 0.55213,
+   "label": "/automotive and vehicles"
+  }
+ ]
+}

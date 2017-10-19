@@ -1,0 +1,32 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - XXX</title>
+    {% else %}
+    <title>Welcome to XXX</title>
+    {% endif %}
+  </head>
+  
+<body>
+<h1>Open position:</h1>
+<div><p>{{ position }}</p></div>
+<br><br>
+<h1>Best Candidates:</h1>
+<br>
+{% for candidate in best_candidates %}
+    <h2>Candidate:</h2>
+    <div><p><b>Name: </b> {{ candidate.name }}</p></div>
+	<div><p><b>E-mail: </b> {{ candidate.contact }}</p></div>
+	<br>
+	<div><p><b>CV Filename: </b> {{ candidate.cv.filename }}</p></div>
+	<div><p><b>CV Language: </b> {{ candidate.cv.language }}</p></div>
+	<br>
+	<div><p><b>Skills: </b> </p></div>
+	{% for skill in candidate.cv.skills %}
+	{{ skill }}
+	<br><br>
+	{% endfor %}
+    {% endfor %}
+
+</body>
+</html>
