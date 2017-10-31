@@ -7,12 +7,13 @@ import csv
 import re
 
 from CV_metadata_extractor import metadata_finder
+from CV_constants import *
 
 #CSV preprocessing
 def csv_skills_preproc(csv_skills):
     best_candidate_skills=[]
     with open(csv_skills, 'r') as csvfile:
-        myreader= csv.reader(csvfile, delimiter=';')
+        myreader= csv.reader(csvfile, delimiter=SKILLS_DELIM)
         for row in myreader:
             skill='/'.join(row)
             skill=re.sub(r'(.*?)/+$',r'/\g<1>',skill)

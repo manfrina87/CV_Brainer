@@ -15,9 +15,8 @@ import json
 import requests
 import re
 
+from CV_constants import *
 
-#IBM Watson -- Natural Language Understanding API
-nlu_url='https://watson-api-explorer.mybluemix.net/natural-language-understanding/api/v1/analyze?version=2017-02-27'
 
 
 #PDF to HTML
@@ -98,9 +97,6 @@ def find_ext(dr, ext):
 
 ### MAIN PROGRAM ###
 def metadata_finder (CV_directory):
-    #Get directory path from input: CV_directory='./pdf/'
-    #CV_directory=str(sys.argv[1])
-    
     #Filter PDF files in directory path
     CV_files=find_ext(CV_directory,"pdf")
     
@@ -113,6 +109,8 @@ def metadata_finder (CV_directory):
         CV_page=convert(CV_file)
         #Parse HTML CV
         CV_name, CV_email, CV_text = html_parser(CV_page)
+        #IBM Watson -- Natural Language Understanding API
+        nlu_url=WATSON_URL
         #Insert CV text into JSON
         nlu_json, nlu_headers=watson_data_creator(CV_text)
         #Request to Watson NLU
