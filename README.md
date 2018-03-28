@@ -64,30 +64,6 @@ r=requests.post(my_url,data=json.dumps(my_data), headers=my_headers)
 r.json()
 ```
 
-### Output (JSON):
-```json
-{u'best_candidates': [{u'contact': u'martina.manfrin87@gmail.com',
-   u'cv': {u'filename': u'./pdf/MartinaManfrinProfile.pdf',
-    u'language': u'it',
-    u'skills': [u'/technology and computing/software/databases',
-     u'/technology and computing',
-     u'/science/computer science/artificial intelligence']},
-   u'name': u'Martina Manfrin'}],
- u'position': u'AI'}
-```
-## POST: [ /metadata ]
-
-  - **Purpose:** get skills of my candidates from CV screening.
-  - **Input:** folder path of my CV (directory) --> Required
-  - **Output:** metadata of all CVs in my path:
-    - Candidate info (candidates):
-        - Candidate Name (name)
-        - Candidate Email (contact)
-        - CV info (cv):
-                - CV name (filename)
-                - CV language (language)
-                - CV skills (skills)
-
 ### Request example (PYTHON):
 ```py
 import requests
@@ -104,30 +80,7 @@ my_data={"directory": "./pdf/"}
 r=requests.post(my_url,data=json.dumps(my_data), headers=my_headers)
 r.json()
 ```
-### Output (JSON):
-```json
-{u'candidates': [{u'contact': u'andreagiordanodev@yahoo.it',
-   u'cv': {u'filename': u'./pdf/AndreaGiordanoProfile.pdf',
-    u'language': u'it',
-    u'skills': [u'/technology and computing/software',
-     u'/technology and computing/consumer electronics/telephones/mobile phones/smart phones',
-     u'/business and industrial/business operations/management/business process']},
-   u'name': u'Andrea Giordano'},
-  {u'contact': u'martina.manfrin87@gmail.com',
-   u'cv': {u'filename': u'./pdf/MartinaManfrinProfile.pdf',
-    u'language': u'it',
-    u'skills': [u'/technology and computing/software/databases',
-     u'/technology and computing',
-     u'/science/computer science/artificial intelligence']},
-   u'name': u'Martina Manfrin'},
-  {u'contact': u'archbonni@gmail.com',
-   u'cv': {u'filename': u'./pdf/IrriveRender Arch. Bonn\xec Learning 3DProfile.pdf',
-    u'language': u'it',
-    u'skills': [u'/art and entertainment/visual art and design/architecture',
-     u'/technology and computing/software/graphics software/animation',
-     u'/technology and computing/software']},
-   u'name': u'IrriveRender Arch. Bonn\xec Learning 3D'}]}
-```
+
 
 ## License & Troubleshooting
 This is a Manfrina web-app, released under GPL license. 
