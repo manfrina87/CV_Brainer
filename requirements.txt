@@ -27,7 +27,7 @@ Jinja2==2.9.6
 keyring==10.3.1
 keyrings.alt==2.2
 lockfile==0.12.2
-lxml==3.7.3
+lxml==4.6.5
 Markdown==2.6.8
 MarkupSafe==1.0
 mechanize==0.2.5
